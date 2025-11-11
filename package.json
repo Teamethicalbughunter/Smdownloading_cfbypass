@@ -1,9 +1,12 @@
 {
   "name": "getindevice-vercel-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "dependencies": {
     "puppeteer-core": "^22.6.0",
-    "@sparticuz/chromium-min": "^123.0.1"
+    "@sparticuz/chromium": "^123.0.0"
+  },
+  "engines": {
+    "node": ">=18.x"
   }
 }

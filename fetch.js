@@ -1,7 +1,5 @@
-// fetch.js
-import chromium from "@sparticuz/chromium";
+import chromium from "@sparticuz/chromium-vercel";
 import puppeteer from "puppeteer-core";
-
 // ... (rest of your caching + logic code stays exactly the same)
 
 /**

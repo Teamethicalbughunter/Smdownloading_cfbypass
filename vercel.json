@@ -3,6 +3,13 @@
   "builds": [
     { "src": "fetch.js", "use": "@vercel/node" }
   ],
+  "functions": {
+    "fetch.js": {
+      "runtime": "nodejs20.x",
+      "memory": 1024,
+      "maxDuration": 60
+    }
+  },
   "routes": [
     { "src": "/(.*)", "dest": "fetch.js" }
   ]

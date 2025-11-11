@@ -1,5 +1,8 @@
-import chromium from "@sparticuz/chromium-min";
+// fetch.js
+import chromium from "@sparticuz/chromium";
 import puppeteer from "puppeteer-core";
+
+// ... (rest of your caching + logic code stays exactly the same)
 
 /**
  * Simple in-memory cache (keeps entries in insertion order).
